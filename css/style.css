@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5,
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 8em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -1792,3 +1792,48 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+
+
+
+    /* our partners slider */
+
+    .tech-slideshow {
+      height: 230px;
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .mover-1 {
+      height: 230px;
+      width: 10000px;
+      
+      position: absolute;
+      overflow-x:hidden;
+      top: 0;
+      left: 0;
+    
+      animation: moveSlideshow 7s linear infinite;
+    }
+    
+    .mover-1 img {
+      display:inline-block;
+      vertical-align:middle;
+      width:230px;
+      margin:0px 35px;
+    }
+
+    .mover-1 img:last-child {
+      display:inline-block;
+      vertical-align:middle;
+      width:170px !important;
+      margin:0px 35px;
+    }
+    
+    @keyframes moveSlideshow {
+      100% { 
+        transform: translateX(-630px);  
+      }
+    }
