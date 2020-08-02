@@ -1809,12 +1809,10 @@ h1, h2, h3, h4, h5,
     .mover-1 {
       height: 230px;
       width: 10000px;
-      
       position: absolute;
       overflow-x:hidden;
       top: 0;
       left: 0;
-    
       animation: moveSlideshow 7s linear infinite;
     }
     
@@ -1834,6 +1832,6 @@ h1, h2, h3, h4, h5,
     
     @keyframes moveSlideshow {
       100% { 
-        transform: translateX(-630px);  
+        transform: translateX(-820px);  
       }
     }
