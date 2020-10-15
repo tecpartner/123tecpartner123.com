@@ -1798,40 +1798,19 @@ h1, h2, h3, h4, h5,
 
     /* our partners slider */
 
-    .tech-slideshow {
-      height: 230px;
-      max-width: 100%;
-      margin: 0 auto;
-      position: relative;
-      overflow: hidden;
-    }
-    
-    .mover-1 {
-      height: 230px;
-      width: 10000px;
-      position: absolute;
-      overflow-x:hidden;
-      top: 0;
-      left: 0;
-      animation: moveSlideshow 7s linear infinite;
-    }
-    
-    .mover-1 img {
-      display:inline-block;
-      vertical-align:middle;
-      width:230px;
-      margin:0px 35px;
+    .partners-container {
+      margin: auto;
+      text-align:center;
+      padding:0px 0 0px 0;
+      position:relative;
     }
 
-    .mover-1 img:last-child {
-      display:inline-block;
-      vertical-align:middle;
-      width:170px !important;
-      margin:0px 35px;
+    .str3 .str_item {
+      font-size:0;
+      line-height:0
     }
-    
-    @keyframes moveSlideshow {
-      100% { 
-        transform: translateX(-820px);  
-      }
+    .str3 img { opacity:0.8; margin: 10px;}
+    .str3 img:hover { opacity:1}
+    .str3.str_wrap.str_active {
+      background:#fff;
     }
